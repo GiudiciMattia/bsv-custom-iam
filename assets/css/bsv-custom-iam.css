@@ -1,0 +1,178 @@
+/* CSS per bsv-custom-iam */
+
+
+/* === BLOCCO: Login e Area Utente === */
+.login-area,
+.area-utente {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 25px;
+    max-width: 400px;
+    margin: 40px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+.login-area label,
+.area-utente p,
+.menu-utente li {
+    color: #333;
+    font-size: 15px;
+}
+
+.login-area input[type="text"],
+.login-area input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+}
+
+.login-area input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.login-area input[type="submit"] {
+    background-color: #003366;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-area input[type="submit"]:hover {
+    background-color: #0055aa;
+}
+
+.login-error {
+    color: red;
+    background-color: #ffe5e5;
+    padding: 10px;
+    border: 1px solid #cc0000;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.area-utente ul.menu-utente {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.area-utente ul.menu-utente li {
+    margin-bottom: 10px;
+}
+
+.area-utente ul.menu-utente li a {
+    text-decoration: none;
+    color: #003366;
+    font-weight: bold;
+    padding: 8px 12px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.area-utente ul.menu-utente li a:hover {
+    background-color: #e5e5e5;
+}
+
+.usermenu-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.usermenu-buttons ul {
+    display: contents;
+}
+
+.usermenu-buttons li {
+    list-style: none;
+}
+
+.usermenu-buttons a {
+    background-color: #0076BB; 
+    color: white !important;
+    padding: 10px 16px;
+    border-radius: 5px;
+    text-decoration: none !important;
+    font-weight: 400;
+    transition: background-color 0.3s ease;
+}
+
+.usermenu-buttons .current-menu-item>a {
+    background-color: #fe4c10;
+    color: white;
+}
+
+.logout-always-red {
+    background-color: #E52225 !important;
+    color: white !important;
+}
+
+.logout-always-red:hover {
+    background-color: #BB1618 !important;
+}
+
+.bsv-reset-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+  margin: 0 auto 2rem;
+  padding: 1rem;
+  background: #f9fafb;
+  border-radius: 6px;
+}
+.bsv-reset-form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.bsv-reset-form input[type="text"],
+.bsv-reset-form input[type="email"] {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+}
+.bsv-reset-form input[type="submit"] {
+  background: #ea580c;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.bsv-reset-message {
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.bsv-reset-message.success {
+  background-color: #e6fffa;
+  border: 1px solid #38a169;
+  color: #22543d;
+}
+
+.bsv-reset-message.error {
+  background-color: #fff5f5;
+  border: 1px solid #e53e3e;
+  color: #742a2a;
+}
+
