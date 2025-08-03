@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Bsv Custom Iam
  * Description: Personalizzazioni area utente e login IAM.
- * Version: 1.2a
+ * Version: 1.2b
  * Author: Mattia Giudici
  * License: GPL2+
  */
